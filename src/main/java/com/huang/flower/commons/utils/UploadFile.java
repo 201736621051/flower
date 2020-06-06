@@ -33,7 +33,7 @@ public class UploadFile {
      * @description: 效验所上传图片的大小及格式等信息...
      * @param: photo
      * @param: path
-     * @date: 2019-06-29 9:40 AM
+     * @date: 6/6/2020
      * @return: java.util.Map<java.lang.String, java.lang.Object>
      */
     private static Map<String, Object> uploadPhoto(MultipartFile photo, String path) {
@@ -63,7 +63,7 @@ public class UploadFile {
      * @param: photo
      * @param: dirPaht
      * @param: portraitPath
-     * @date: 2019-06-29 9:44 AM
+     * @date: 6/6/2020
      * @return: java.util.Map<java.lang.String, java.lang.Object>
      */
     public static Map<String, Object> getUploadResult(MultipartFile photo, String dirPath, String uploadPath) {
