@@ -12,8 +12,8 @@ import java.util.UUID;
 /**
  * @project: memo
  * @description: 上传文件工具类
- * @author: 黄宇辉
- * @date: 6/29/2019-9:38 AM
+ * @author: 冯华文
+ * @date: 6/6/2020
  * @version: 1.0
  * @website: https://yubuntu0109.github.io/
  */
