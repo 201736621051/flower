@@ -29,13 +29,8 @@ public class JedisUtil {
     public void setJedisPool(JedisPool jedisPool) {
         JedisUtil.jedisPool = jedisPool;
     }
-    /**
-     * 对某个键的值自增
-     * @author liboyi
-     * @param key 键
-     * @param cacheSeconds 超时时间，0为不超时
-     * @return
-     */
+    
+    
     public static long setIncr(String key, int cacheSeconds) {
         long result = 0;
         Jedis jedis = null;
