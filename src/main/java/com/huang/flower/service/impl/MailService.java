@@ -20,8 +20,8 @@ public class MailService {
 
     public void sendMail(String patname, String docname, String mail) {
         SimpleMailMessage message = new SimpleMailMessage();
-        message.setSubject("医院系统预约提醒");
-        message.setText("尊敬的" + docname + "医生," + patname + "已预约您，请登录系统查看具体信息");
+        message.setSubject("谜语花店系统提醒");
+        message.setText("尊敬的" + docname + "先生," + patname + "系统信息，请登录系统查看具体信息");
         message.setFrom("1154458742@qq.com");
         message.setTo(mail);
         mailSender.send(message);
@@ -29,8 +29,8 @@ public class MailService {
 
     public void changePwdSuccess(String username, String mail) {
         SimpleMailMessage message = new SimpleMailMessage();
-        message.setSubject("医院系统预约提醒");
-        message.setText("尊敬的" + username + "医生,您修改密码成功！如果不是您本人操作，请及时修改密码");
+        message.setSubject("谜语花店系统提醒");
+        message.setText("尊敬的" + username + "先生,您修改密码成功！如果不是您本人操作，请及时修改密码");
         message.setFrom("1154458742@qq.com");
         message.setTo(mail);
         mailSender.send(message);
